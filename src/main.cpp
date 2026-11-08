@@ -68,10 +68,6 @@ public:
   ~Snake() = default;
   void setRect(float x, float y);
 
-  void moveUp();
-  void moveDown();
-  void moveRight();
-  void moveLeft();
   void move();
   void setDirection(SDL_Keycode k);
 
